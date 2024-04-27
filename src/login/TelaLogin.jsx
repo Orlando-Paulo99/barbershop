@@ -12,6 +12,8 @@ function TelaLogin() {
                 <label htmlFor="">Senha:</label>
                 <input type="password"  placeholder='insira sua senha' />
             </div>
+
+            <button>login</button>
             
         </form>
     </div>
