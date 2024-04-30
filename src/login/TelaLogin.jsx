@@ -2,6 +2,10 @@ import React, { useState } from 'react'
 
 
 function TelaLogin() {
+
+  const [email, setEmail]=useState('')
+  const [senha, setSenha]=useState('')
+
   return (
     <div>
         <h2>login</h2>

@@ -2,14 +2,20 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url('public/barba-negra.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
 
 form{
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #e40e0e;
-    left: 150%;
-    
+    background-color: #252422;
+    left: 160%;
+
     position: relative;
 }
 
@@ -35,4 +41,54 @@ label,input{
     width: 250px;
     height: 50px;
     border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    background-color: #fefae0;
+    color: #293241;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
+@media only Screen and (max-width: 767px){
+
+    body{
+        margin: 25px;
+
+        background-image: url('public/barba-negra.webp');
+        background-size: cover;
+        background-position: center;
+        max-width: 100%;
+        margin: 25px;
+        max-width: 100%;
+        padding: 10rem 0;
+    }
+    form{
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #252422;
+        width: 80%;
+        left: 20%;       
+        position: relative;
+        margin: 0 auto;
+    }
+
+    h2{
+    justify-content: center;
+    display: flex;
+    position: relative;
+    left: 20%;
+
+    }
+
+    .inserDados{
+        display: block;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center;
+    }
+ 
 }
