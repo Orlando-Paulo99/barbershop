@@ -58,7 +58,6 @@ input{
     body{
       
         background-image: url('public/barba-negra.webp');
-        background-color: aqua;
         background-size: cover;
         background-repeat: no-repeat;
         max-width: 100%;
