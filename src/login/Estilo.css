@@ -56,12 +56,11 @@ input{
 @media only Screen and (max-width: 767px){
 
     body{
-        margin: 25px;
-
+      
         background-image: url('public/barba-negra.webp');
         background-size: cover;
-        
         background-repeat: no-repeat;
+        max-width: 100%;
        
     }
     form{
