@@ -7,14 +7,22 @@ import './App.css'
 import TelaLogin from './login/TelaLogin'
 import './login/Estilo.css'
 
+import{BrowserRouter, Route,Routes,} from 'react-router-dom'
+import HomePage from './HomePage'
+
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     
-      <div>
-        <TelaLogin/>
-      </div>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomePage/>}/>
+        <Route path='/login' element={<TelaLogin/>}/>
+        <Route path='*' element={<h1>pagina não encontrada</h1>}/>
+      </Routes>
+      </BrowserRouter>
+
      
     
   )
