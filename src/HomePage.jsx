@@ -9,12 +9,16 @@ function HomePage() {
 
    */
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
-      <header className="bg-black w-full py-4">
-        <div className="container mx-auto text-center text-white text-3xl">
-          <h1>Sejam bem-vindos a melhor barbearia da Zona Norte!</h1>
-        </div>
-      </header>
-
+      <nav className="bg-blue-600 p-4 w-full fixed top-0 left-0">
+      <h1 className="text-5xl font-extrabold text-withe-600 tracking-widest">
+        Barbershop
+      </h1>
+        <ul className="flex space-x-4 list-none">
+          <li><a href="#home" className="text-white">Home</a></li>
+          <li><a href="#about" className="text-white">InFormações</a></li>
+          <li><a href="#about" className="text-white">Agendamento</a></li>
+        </ul>
+    </nav>
       {/**
        * container mx-auto: Centraliza o conteúdo e define uma largura máxima.
           p-4: Define padding.
@@ -22,11 +26,13 @@ function HomePage() {
        */}
       <main className="container mx-auto p-4 flex-1">
         
+     
+
       </main>
       <footer className="bg-blue-600 w-full py-4">
         <div className="container mx-auto text-center text-white">
           &copy; 2024 @minha_barbearia
-        </div>
+        </div>h
       </footer>
     </div>
   )
