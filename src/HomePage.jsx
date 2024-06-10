@@ -8,7 +8,7 @@ function HomePage() {
          flex: Aplica o layout flexbox ao contêiner, permitindo uma melhor organização dos elementos filhos.
 
    */
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4 md:p-8 lg:p-12">
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center ">
       <nav className="bg-blue-600 p-4 w-full fixed top-0 left-0">
       <h1 className="text-5xl font-extrabold text-withe-600 tracking-widest">
         Barbershop
