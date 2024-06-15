@@ -8,15 +8,15 @@ function HomePage() {
          flex: Aplica o layout flexbox ao contêiner, permitindo uma melhor organização dos elementos filhos.
 
    */
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center ">
-      <nav className="bg-blue-600 p-4 w-full fixed top-0 left-0">
-      <h1 className="text-5xl font-extrabold text-withe-600 tracking-widest">
+    <div className="bg-white flex flex-col items-center justify-center ">
+      <nav className="bg-blue-600 p-4 w-full  top-0 left-0 ">
+      <h1 className="text-6xl font-black text-withe tracking-widest">
         Barbershop
       </h1>
         <ul className="flex space-x-4 list-none">
-          <li><a href="#home" className="text-white">Home</a></li>
-          <li><a href="#about" className="text-white">InFormações</a></li>
-          <li><a href="#about" className="text-white">Agendamento</a></li>
+          <li><a href="#home" className="text-white font-black">Home</a></li>
+          <li><a href="#about" className="text-white font-black">InFormações</a></li>
+          <li><a href="#about" className="text-white font-black">Agendamento</a></li>
         </ul>
     </nav>
       {/**
@@ -24,8 +24,12 @@ function HomePage() {
           p-4: Define padding.
           flex-1: Permite que o main cresça e ocupe o espaço disponível.
        */}
-      <main className="container mx-auto p-4 flex-1">
-        
+      <main className="container p-4 mt-6 flex-1 ">
+      <section class="">
+          <h1>Ambiente</h1>
+          <img src="./barba-negra.webp" alt="" />
+
+        </section>
      
 
       </main>
