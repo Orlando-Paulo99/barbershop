@@ -24,9 +24,9 @@ function HomePage() {
           p-4: Define padding.
           flex-1: Permite que o main cresça e ocupe o espaço disponível.
        */}
-      <main className="container p-4 mt-6 flex-1 ">
+      <main className="bg-gray-600 p-8 mt-0 ">
       <section class="">
-          <h1>Ambiente</h1>
+          <h1 className=" text-white font-black">Ambiente</h1>
           <img src="./barba-negra.webp" alt="" />
 
         </section>
