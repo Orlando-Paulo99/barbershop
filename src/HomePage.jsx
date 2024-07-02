@@ -8,11 +8,13 @@ function HomePage() {
       <header>
         <h1>Barbershop</h1>
 
-        <ul>
-         <a href="#">Home</a>
-         <a href="#">Sobre</a>
-         <a href="#">Agendamentos</a>
-        </ul>
+        <div class="links">
+        <Link to={"/sobre"}>Sobre</Link>
+        <Link to={"/agenda"}>Agendamento</Link>
+         
+        </div>
+         
+        
       </header>
 
    

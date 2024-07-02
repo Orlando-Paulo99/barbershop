@@ -15,7 +15,7 @@ header{
  
 }
 
-header ul{
+header .links{
     padding-left: 0; 
     color: aliceblue;
     display:flex;
@@ -25,11 +25,7 @@ header ul{
     width:50%;
     
 }
-header li{
- 
-        
 
-}
 header h1{
     color:aliceblue;
     left: 10px;
