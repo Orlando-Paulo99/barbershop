@@ -10,10 +10,12 @@ function HomePage() {
 
         <ul>
          <a href="#">Home</a>
-         <a href="#">sobre</a>
+         <a href="#">Sobre</a>
          <a href="#">Agendamentos</a>
         </ul>
       </header>
+
+   
     </div> 
   
   )    
