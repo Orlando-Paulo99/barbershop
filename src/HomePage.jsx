@@ -17,7 +17,10 @@ function HomePage() {
       </header>
 
       <main>
-        <section className="container-1">
+        <section className="containerP">
+          <h3>Bem vindos a melhor barbearia da Zona Norte</h3>
+          <h1>Cortes a partir <br /> de <br />R$ 20,00 Reais </h1>
+          <h4>Conheça nosso diversos tipos de serviço para te deixar no estilo</h4>
 
         </section>
 

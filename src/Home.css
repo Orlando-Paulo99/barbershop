@@ -33,7 +33,31 @@ header h1{
 }
 
 
-main .container-1{
+.containerP{
+    background-color: aqua;
+    width: 100%;
+    
+    position: relative;
+    height: 450px; /* Ajuste conforme necessário */
+    background-image: url('barberFoto.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-color: rgba(14, 14, 15, 0.5);
+    justify-content: center;
+    text-align: center;
+    display:block;
+
+  
+    
+}
+
+.containerP h1,h3,h4{
+    color: rgb(255, 255, 255);
+    font-size:70px;
+    position:relative;
+    top:70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     
 }
