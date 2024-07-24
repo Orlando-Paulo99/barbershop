@@ -65,15 +65,36 @@ header h1{
 
 
 .containerP h1,h3,h4{
+
     color:#ffffffee;
     font-size:70px;
     position:relative;
     top:70px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgba(0, 0, 0, 0.7); 
-
    
-  
     
-    
+}
+
+
+
+.container-Preços{
+    background-color:#c0d6df;
+    border-radius: 20px;
+    height: 400px;
+    color: #171d1c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.combos{
+    background-color:#c0d6df;
+    border-radius: 20px;
+    height: 400px;
+    color: #171d1c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
 }

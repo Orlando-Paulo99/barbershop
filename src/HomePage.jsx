@@ -24,6 +24,32 @@ function HomePage() {
 
         </section>
 
+        <section className="container-Preços">
+          <h1 className="info">Preços e serviços</h1>
+
+          <div class="combos">
+                <ul>
+                    <li class="nameCombo">Cabelo + Barba</li>
+                    <li>R$ 35,00 Reais</li>
+                   
+                </ul>
+            </div>
+          <div class="combos">
+                <ul>
+                    <li class="nameCombo">Cabelo + Barba</li>
+                    <li>R$ 35,00 Reais</li>
+                   
+                </ul>
+            </div>
+          <div class="combos">
+                <ul>
+                    <li class="nameCombo">Cabelo + Barba</li>
+                    <li>R$ 35,00 Reais</li>
+                   
+                </ul>
+            </div>
+        </section>
+
       </main>
    
     </div> 
