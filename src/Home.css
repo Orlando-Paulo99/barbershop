@@ -84,6 +84,8 @@ header h1{
     color: #171d1c;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .combos{
@@ -97,4 +99,8 @@ header h1{
     justify-content: center;
     text-align: center;
     width: 25%;
+}
+.info{
+    display:flex;
+    justify-content: center;
 }
