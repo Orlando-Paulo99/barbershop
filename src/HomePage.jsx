@@ -24,9 +24,13 @@ function HomePage() {
 
         </section>
 
+         <div className='prec'>
+            <h1 className='valor'>Preços e Valores</h1>
+          </div>
+
         <section className="container-Preços">
         
-
+          
           <div class="combos">
                 <ul>
                     <li class="nameCombo">Cabelo + Barba</li>

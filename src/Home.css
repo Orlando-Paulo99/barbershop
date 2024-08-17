@@ -69,37 +69,50 @@ header h1{
     color:#ffffffee;
     font-size:70px;
     position:relative;
-    top:70px;
+    top: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
     
 }
 
+.prec{
+    background-color: #000;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+.valor{
+   color:#fff;
+}
 
 
 .container-Preços{
-    background-color:#c0d6df;
-    border-radius: 20px;
-    height: 400px;
-    color: #171d1c;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    background-color: #000;
     display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0;
     justify-content: space-between;
+    position: relative;
 }
 
 .combos{
-    background-color:#c0d6df;
-    border-radius: 20px;
-    height: 400px;
-    color: #171d1c;
+    background-color:red;
+    border-radius: 15px;
+    height: 120px;
+    color:#000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 20px;  
+}
+
+.container-Preços .combos{
     display: grid;
     justify-content: center;
     text-align: center;
-    width: 25%;
+    width: 20%;
 }
+
 .info{
     display:flex;
     justify-content: center;
